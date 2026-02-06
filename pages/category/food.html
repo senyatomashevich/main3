@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мясо, птица — HealEat</title>
+  <link rel="stylesheet" href="../../style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+<!-- header такой же как в index.html, только пути ../../ -->
+<header class="header">
+  <div class="logo">HealEat</div>
+  <nav class="nav">
+    <a href="../../index.html">Главная</a>
+    <a href="../sales.html">Акции</a>
+    <a href="../contacts.html">Контакты</a>
+  </nav>
+  <a href="../basket.html" class="cart-btn" aria-label="Корзина">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+    <span class="cart-text">Корзина <span class="cart-count">0</span></span>
+  </a>
+</header>
+
+<section class="popular" style="padding-top:40px;">
+  <!-- Аналогично структуре выше, меняем только заголовок и товары -->
+<h2 class="section-title">Готовая еда</h2>
+<div class="products">
+  <div class="product" data-name="Салат Цезарь" data-price="320" data-img="https://images.unsplash.com/photo-1512621776951-a57141f2eefd">
+    <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd" alt="Салат Цезарь"> ...
+  </div>
+  <div class="product" data-name="Паста Карбонара" data-price="380" data-img="https://images.unsplash.com/photo-1612874742237-6526221588e3">
+    ...
+  </div>
+  <!-- ещё 4–6 блюд: борщ, плов, суши, пицца и т.д. -->
+</div>
+</section>
+
+<!-- footer такой же как в index.html -->
+<footer class="footer"> ... (скопируйте из index.html) </footer>
+
+<script src="../../script.js"></script>
+</body>
+</html>
